@@ -1,6 +1,6 @@
 import App from './App';
 
-import { render, screen } from './utils/MagicWrapper';
+import { render, screen, cleanup } from './utils/MagicWrapper';
 
 describe('when application loads', () => {
   it('should title says vote+react', () => {
